@@ -7,6 +7,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ChatMemberUpdated
 from aiogram.enums import ChatType, ChatMemberStatus
 
+# Fetch sensitive info from environment variables
 TOKEN = os.getenv("BOT_TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
 GROUP_1_ID = -1002341293170  # Replace with your first group ID
