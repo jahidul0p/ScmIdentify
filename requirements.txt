@@ -1,0 +1,4 @@
+aiogram
+mysql-connector-python
+logging
+asyncio
